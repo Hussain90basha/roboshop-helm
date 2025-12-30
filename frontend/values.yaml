@@ -1,0 +1,5 @@
+deployment:
+  imageRepo: bashahussain/frontend
+  imageVersion: v1
+service:
+  servicePort: 80 # default value
