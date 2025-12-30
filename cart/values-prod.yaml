@@ -1,0 +1,4 @@
+configmap:
+  REDISHOST: "redis"
+  CATALOGUEHOST: "catalogue"
+  CATALOGUEPORT: "8080"
