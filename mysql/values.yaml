@@ -1,0 +1,5 @@
+deployment:
+  imageRepo: bashahussain/mysql
+  imageVersion: v1
+service: 
+  type: ClusterIP  
