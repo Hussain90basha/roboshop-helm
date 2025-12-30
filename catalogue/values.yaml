@@ -1,5 +1,5 @@
 deployment:
   imageRepo: bashahussain/catalogue
   imageVersion: v1
-# service:
-#   servicePort: 8080 # default value
+service:
+  servicePort: 8080 # default value
