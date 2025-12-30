@@ -1,0 +1,8 @@
+configmap:
+  CARTHOST: "cart"
+  CARTPORT: "8080"
+  USERHOST: "user"
+  USERPORT: "8080"
+  AMQPHOST: "rabbitmq"
+  AMQPUSER: "roboshop"
+  AMQPPASS: "roboshop123"
