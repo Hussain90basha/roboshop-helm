@@ -38,6 +38,9 @@ spec:
       - name: mysql
         image: "{{ .Values.deployment.imageRepo }}:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: RoboShop@1
         # readinessProbe:
         #   tcpSocket:
         #     port: 3306
